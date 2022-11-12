@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/demo-react-app/static/css/main.732f9aad.css",
+    "main.js": "/demo-react-app/static/js/main.d4424473.js",
+    "static/media/retro-living-room-interior-design_53876-145503.webp": "/demo-react-app/static/media/retro-living-room-interior-design_53876-145503.188022edd520ab30820d.webp",
+    "static/media/phone.svg": "/demo-react-app/static/media/phone.8936a6edaf5791754832bca2c2d4d063.svg",
+    "static/media/bulb.svg": "/demo-react-app/static/media/bulb.747a171f693816ff4f132947e3a6df3b.svg",
+    "static/media/puzzle.svg": "/demo-react-app/static/media/puzzle.4ed868d9e22dd58cf678925898df7bb7.svg",
+    "index.html": "/demo-react-app/index.html",
+    "static/media/ham-burger.svg": "/demo-react-app/static/media/ham-burger.d54e93457a202987935e8d8c79868abf.svg",
+    "main.732f9aad.css.map": "/demo-react-app/static/css/main.732f9aad.css.map",
+    "main.d4424473.js.map": "/demo-react-app/static/js/main.d4424473.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.732f9aad.css",
+    "static/js/main.d4424473.js"
+  ]
+}
