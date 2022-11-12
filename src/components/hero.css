@@ -1,0 +1,185 @@
+.hero {
+    margin: 60px 70px 0px 70px;
+}
+
+.hero1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.card1 {
+    background-color: rgb(174 193 208 / 30%);
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+}
+
+.card1::before {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -60px;
+    right: 64px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.card1::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -60px;
+    right: 70px;
+    width: 1px;
+    height: 60px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.puzzle-image {
+    width: 70px;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 180px;
+}
+
+.btn {
+    height: fit-content;
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 30px;
+}
+
+.card2 {
+    background-color: rgb(174 193 208 / 30%);
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+}
+
+.card2::before {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 54px;
+    right: -64px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.card2::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 60px;
+    right: -60px;
+    width: 60px;
+    height: 1px;
+}
+
+.bulb-image {
+    width: 70px;
+}
+
+/* Media Query */
+@media screen and (max-width:840px) {
+    .hero {
+        margin: 60px 0;
+        position: relative;
+    }
+    .hero1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading {
+        margin-bottom: 150px;
+    }
+    .hero2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .btn {
+        position: absolute;
+        top: 200px;
+    }
+    .card1 {
+        width: 80%;
+    }
+    .card2 {
+        width: 80%;
+    }
+    .card1::after {
+        display: none;
+    }
+    .card1::before {
+        display: none;
+    }
+    .card2::after {
+        display: none;
+    }
+    .card2::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .heading {
+        font-size: 30px;
+    }
+    .btn {
+        padding: 9px 30px;
+        font-size: 13px;
+        top: 170px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .hero {
+        margin-top: 40px;
+    }
+    .heading {
+        font-size: 25px;
+        margin-bottom: 120px;
+    }
+    .btn {
+        padding: 7px 25px;
+        font-size: 12px;
+        top: 150px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .heading {
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+    .btn {
+        padding: 6px 20px;
+        font-size: 10px;
+        top: 130px;
+    }
+}
